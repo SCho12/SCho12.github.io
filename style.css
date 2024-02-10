@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('fonts/Atkinson-Hyperlegible-Regular.WOFF') format('woff2'),
+         url('fonts/Atkinson-Hyperlegible-Regular.WOFF2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#leetcode {
+    height: 300px;
+    width: 300px;
+}
+
+#cat_sweater {
+    height: 500px;
+    width: 400px;
+}
+
+p {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20pt;
+}
+
+li {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.input-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
